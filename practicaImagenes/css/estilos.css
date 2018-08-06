@@ -1,0 +1,16 @@
+
+
+/* que noes seo  */
+.bannerfondo{
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/desktop/tunel.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+/* img que sies seo */
+.bannermarca{
+width: 100%;
+}
