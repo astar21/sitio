@@ -1,0 +1,62 @@
+html{
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+   
+}
+
+
+.sliderPrincipal{
+   
+    background-image: url('../img/desktop/montañas.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+}
+.sliderPrincipal__texto{
+    padding: 200px 0;
+    width: 70%;
+    text-align: right;
+    
+}
+.sliderPrincipal__texto__titulo{
+    font-size:100px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    
+}
+.sliderPrincipal__texto__boton{
+    color: #000;
+    border: 1px solid  #000000;
+    background-color:white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: right
+    
+    
+}
+.cabecera{
+    padding: 50px;
+}
+
+    img {
+       width: 45%;
+       
+    }
+
+.texto1{
+   display: inline-block;
+   width: 45%;
+   margin: 0 0 50px 5%;
+   vertical-align: top;
+}
+.texto2{
+ 
+ margin-top: 25px;
+   
+}
