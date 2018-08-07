@@ -8,9 +8,12 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    /* si es un block podemos usar marigin  */
+    margin: 0 auto
 
 }
 /* img que sies seo */
 .bannermarca{
 width: 100%;
+/* para centrar una imagen tines que hacerlodesde el padre osea header */
 }
