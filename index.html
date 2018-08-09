@@ -1,16 +1,121 @@
 <html>
     <head>
         <title>documentos</title>
+        <style>
+            @font-face{
+                font-family: 'OpenSansRegular';
+                src: local('OpenSansRegular'),
+                url('opensans-regular-webfont.wof') format ('woff');
+            }
+            @font-face{
+                font-family: 'OpenSansBold';
+                src: local('OpenSansBold'),
+                url('opensans-bold-webfont.wof') format ('woff');
+            }
+            html{
+                font-size: 16px;
+                font-family: 'OpenSansRegular',sans-serif;
+                color: #bababa;
+            }
+        ol {
+            list-style: none;
+            padding-left: 0 ;
+
+        }
+        ol li{
+            margin-bottom: 20px;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+            color: #bababa;
+        }
+        h1,h4{
+            font-family: 'OpenSansBold',sans-serif ;
+            color: black; 
+        }
+        h1{
+            margin-bottom: 0;
+        }
+        h4{
+            margin-top: 0;
+            margin-bottom: 80px;
+        }
+        /* rolloer */
+        ol li:hover span.icon,ol li:hover a {
+            color: red;
+            font-size: 20px;
+           
+            
+            }
+            /* popup */
+
+            .popup{
+                width: 100px;
+                height: 100px;
+                border: 10px solid #eee;
+
+                display: none;
+
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                box-shadow: 0px 0px 20px 3px;
+
+                /* zindex son las capas mque sube  */
+                position: absolute;  
+                top: 0;
+                right: 150;
+                z-index: 10;
+            }
+          ol li:hover .popup{
+             display: inline-block;
+        
+               
+            }
+            .popup01{
+                background-image: url('practicaBlockInline/practicablockline.jpg');
+            }
+            .popup02{
+                background-image: url('practicaImagenes/practicaImagenes.jpg');
+            }
+           .popup03{
+                background-image: url('practicaBanner/practicaBanner.jpg');
+             }
+    
+        body{
+            padding:150px;
+        }
+       
+        </style>
     </head>
     <body>
         <h1>
-            trabajos
+            Directorios web 
         </h1>
+        <h4>(Marco Astar)</h4>
         <ol>
             <li>
-                <a href="practicaBlockInline/index.html"
-                practica block inline (htmk4/css)
-            /a>
+                <!-- insertar un icono  -->
+               <span class="icon">&#9658; </span> 
+                <a href="practicaBlockInline/index.html">
+                    
+                practica block inline (html5/css)</a>
+                <div class=" popup popup01"></div>
+            </li>
+            <li>  <span class="icon">&#9658; </span> 
+                <a href="practicaImagenes/index.html">
+                  
+                practica imagenes (html5/css)
+                </a>
+                <div class=" popup popup02"></div>
+            </li>
+            <li>  <span class="icon">&#9658; </span> 
+                <a href="practicaBanner/index.html">
+                    
+                practica bannner (html5/css)
+                </a>
+                <div class=" popup popup03"></div>
             </li>
         </ol>
         
