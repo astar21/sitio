@@ -1,0 +1,91 @@
+@font-face{
+    font-family: 'OpenSansRegular';
+    src: local('OpenSansRegular'),
+    url('opensans-regular-webfont.wof') format ('woff');
+}
+@font-face{
+    font-family: 'OpenSansBold';
+    src: local('OpenSansBold'),
+    url('opensans-bold-webfont.wof') format ('woff');
+ } 
+
+ /* hs */
+ h1{
+font-size: 2.5em;
+ }
+ h2{
+    font-size: 2rem;
+ }
+ h3{
+    font-size: 1.5em;
+ }
+ /* <p> es 1 re */
+ h4{
+    font-size: 0.8rem;
+ }
+ h5{
+
+    font-size: 0.6rem;
+ }
+h6{
+    font-size: 0.4rem;
+}
+ /* <p> es 1 re */
+ p{
+    font-size: 1.250rem;
+ }
+ pre{
+    font-size:  1rem;
+ }
+ /* colores */
+ .turquesaTexto{
+color: #71cabc
+ }
+ .turquesaFondo{
+    background-color:  #71cabc
+     }
+.aluzgrisTexto{
+        color: #9ac0c7
+         }
+.aluzgrisfondo{
+    background-color: #9ac0c7
+}
+.grismediotexto{
+    color:#707070
+}
+.grismediofondo{
+    background-color: #707070;
+}
+/* tamaños tipograficos  */
+.tituloprincipal{
+    font-size: 9.125rem;
+    font-family: 'arial balck'
+}
+.botonTexto{
+    font-size: 2.188rem;
+}
+/* grises  */
+.grismedioFondo{
+background-color: #454545
+}
+.grismediotexto{
+    color:#707070
+}
+.grisoscuroFondo{
+background-color: #a5a5a5
+}
+.grisoscurotexto{
+    color: #eee
+}
+.grislightFondo{
+background-color: #eee
+}
+.grislighttexto{
+    color: #eee
+    }
+.blancoFondo{
+background-color: #f7f7f7
+}
+.negroFondo{
+   background-color:  #101010
+}
