@@ -1,0 +1,56 @@
+/* formaulario */
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+form{
+    margin-bottom: 400px;
+}
+ul{
+    list-style-type: none;
+   
+}
+ul{
+    width: 310px;
+
+}
+/* lavel */
+li:nth-child(2n){
+    margin-bottom: 2rem;
+}
+ li:nth-child(2n):hover input,li:nth-child(2n):hover textarea{
+     background-color:blue;
+     color:white;
+
+}
+/* inputs */
+li:nth-child(2n+1){
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin-bottom: 0.2rem;
+    letter-spacing: 0.1rem;
+}
+/* input fdormatos */
+li:nth-child(2n) input,li:nth-child(2n)textarea{
+    width: 300px;
+    padding:0.5rem;
+    color: blue;
+    font-size: 1.2rem;
+    font-style: italic;
+    border-radius: 3px;
+    border:1px solid grey;
+     
+
+}
+li.boton{
+    text-align: right;
+   
+}
+li.boton button{
+    font-size: 1.5rem;
+    width: 100%;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+    border: 0;
+}
